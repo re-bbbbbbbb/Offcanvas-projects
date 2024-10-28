@@ -1,2 +1,1 @@
-# Offcanvas-projects
-This repository contains resources and examples about Bootstrap's offcanvas feature.
+This repository contains resources and examples about Bootstrap's offcanvas feature, including slides, an HTML/CSS project demonstrating its setup, and two websites where offcanvas is implemented (an older and a newer version).

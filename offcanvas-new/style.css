@@ -1,0 +1,241 @@
+/* TAG */
+b{
+    font-size: 21px;
+}
+
+i{
+    font-size: 21px;
+}
+
+/* HEADER */
+header{
+    background-color: #68151B;
+    margin: 30px 30px 0 30px;
+    border-radius: 5px;
+    padding: 0.6%;
+}
+
+#logoSkz{
+    width: 35%;
+}
+
+/* OFFCANVAS */
+.imgList{
+    color: white;
+    width: 37px;
+    margin-top: -150px;
+}
+
+.divHeaderOffcanvas{
+    background-color: #68151B;
+    margin: 2px 15px 20px 15px;
+    border-radius: 5px;
+    padding: 5px 35px 5px 35px;
+}
+
+.h1SecAltreinfo{
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.ulCorrelati{
+    font-size: 18px;
+    list-style: none;
+}
+
+.liCorrelati{
+    background-color: #68151B;
+    margin: 2px 0px 7px -15px;
+    text-align: left;
+    border-radius: 5px;
+    padding: 7px;
+    width: 436px;
+}
+
+.liSocialCorrelati{
+    background-color: #68151B;
+    margin: 2px 0px 7px -15px;
+    text-align: left;
+    border-radius: 5px;
+    padding: 7px;
+    width: 436px;
+}
+
+/* SECTION */
+/*index*/
+.h1SecIntroduzione{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.divSecIntroduzione, .divSecStoria1, .divSecStoria2, .divSecStoria3, .divSecStoria4, .divSecStoria5, .divSecStoria6, .divSecStoria7{
+    background-color: #68151B;
+    margin: 30px 30px 0 30px;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+
+.divSecStoria7{
+    margin: 30px 30px 30px 30px;
+}
+
+/*social*/
+.h1SecSocialKR, .h1SecSocialJP, .h1SecSocialCN{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.divSecSocialKR, .divSecSocialJP, .divSecSocialCN{
+    background-color: #68151B;
+    margin: 30px 30px 0 30px;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+
+.imgASocialKR1, .imgASocialKR2, .imgASocialKR3, .imgASocialKR4, .imgASocialKR5,
+.imgASocialJP1, .imgASocialJP2, .imgASocialJP3, .imgASocialJP4{
+    width: 10%;
+    margin-right: 5%;
+    border-radius: 15%;
+}
+
+.imgASocialKR6, .imgASocialJP5, .imgASocialCN{
+    width: 10%;
+    border-radius: 15%;
+}
+
+.ulSocialKR, .ulSocialJP, .ulSocialCN{
+    list-style-type: none;
+    text-align: center;
+}
+
+.liSocialKR, .liSocialJP, .liSocialCN{
+    display: inline;
+}
+
+/*membri*/
+.divSecMembri,
+.divSecUnita{
+    background-color: #68151B;
+    margin: 30px 30px 0 30px;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+
+.h1SecMembri,
+.h1Unita{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.imgComponBangchan, .imgComponLeeknow, .imgComponChangbin, .imgComponHyunjin, .imgComponHan, .imgComponFelix, .imgComponSeungmin, .imgComponIn{
+    width: 20%;
+    margin-right: 5%;
+}
+
+.imgComponBangchan-last, .imgComponLeeknow-last, .imgComponChangbin-last, .imgComponHyunjin-last, .imgComponHan-last, .imgComponFelix-last, .imgComponSeungmin-last, .imgComponIn-last{
+    width: 20%;
+}
+
+.imgComponLeeknow, .imgComponChangbin, .imgComponHyunjin, .imgComponHan, .imgComponFelix, .imgComponSeungmin, .imgComponIn,
+.imgComponLeeknow-last, .imgComponChangbin-last, .imgComponHyunjin-last, .imgComponHan-last, .imgComponFelix-last, .imgComponSeungmin-last, .imgComponIn-last{
+    margin-top: 2%;
+}
+
+.ilComponBangchan, .ilComponLeeknow, .ilComponChangbin, .ilComponHyunjin, .ilComponHan, .ilComponFelix, .ilComponSeungmin, .ilComponIn,
+.ilUnit3racha, .ilUnitDanceracha, .ilUnitVocalracha{
+    display: inline;
+}
+
+.ulComponBangchan, .ulComponLeeknow, .ulComponChangbin, .ulComponHyunjin, .ulComponHan, .ulComponFelix, .ulComponSeungmin,
+.ulUnita3racha, .ulUnitaDanceracha{
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.ulComponIn,
+.ulUnitaVocalracha{
+    list-style-type: none;
+    text-align: center;
+}
+
+.liDescrizBangchan, .liDescrizLeeknow, .liDescrizChangbin, .liDescrizHyunjin, .liDescrizHan, .liDescrizFelix, .liDescrizSeungmin,
+.liDescriz3racha, .liDescrizDanceracha{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 18px;
+}
+
+.liDescrizIn,
+.liDescrizVocalracha{
+    margin-top: 1%;
+    font-size: 18px;
+}
+
+.imgUnitVocalracha, .imgUnitDanceracha{
+    width: 65%;
+    margin-top: 2%;
+}
+
+.imgUnit3racha{
+    width: 65%;
+}
+
+/*discografia*/
+/* USA */ #divSecDiscoUsaStepoutofcle, #divSecDiscoUsaTopenglish, #divSecDiscoUsaLosemybreathfeatcharlieputh, #divSecDiscoUsaLosemybreathremixes,
+/* JP */ #divSecDiscoJpskz2020, #divSecDiscoJptopjapanesever, #divSecDiscoJpallin, #divSecDiscoJpscarsthunderousjapanesever, #divSecDiscoJpcircus, #divSecDiscoJpcase143, #divSecDiscoJpthesound, #divSecDiscoJpsocialpathsuperbowljapanesever, #divSecDiscoJpwhy, #divSecDiscoJpgiant,
+/* KR */ #divSecDiscoKRhellevator, #divSecDiscoKRmixtape, #divSecDiscoKRiamnot, #divSecDiscoKRiamwho, #divSecDiscoKRiamyou, #divSecDiscoKRcle1miroh, #divSecDiscoKRcle2yellowwood, #divSecDiscoKRdoubleknot, #divSecDiscoKRextraordinaryyouostpart7, #divSecDiscoKRclelevanter, #divSecDiscoKRmixtapegonedays, #divSecDiscoKRmixtapeontrack, #divSecDiscoKRtop, #divSecDiscoKRgolive, #divSecDiscoKRpopoutboypart1, #divSecDiscoKRinlife, #divSecDiscoKRallinkoreanver, #divSecDiscoKRgoingdumb, #divSecDiscoKRgoingdumbmikewilliamsremix, #divSecDiscoKRmixtapeoh, #divSecDiscoKRnoeasy, #divSecDiscoKRchristmasevel, #divSecDiscoKRskz2021, #divSecDiscoKRoddinary, #divSecDiscoKRmixtapetimeout, #divSecDiscoKRmaxident, #divSecDiscoKRskzreplay, #divSecDiscoKR5star, #divSecDiscoKRrockstar, #divSecDiscoKRate, #divSecDiscoKRchkchkboomremixes, #divSecDiscoKRslash, #divSecDiscoKRcomeplay{
+    background-color: #68151B;
+    margin: 30px 30px 0 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* USA */ .imgSecDiscoUSAstepoutofcle, .imgSecDiscoUSAtopenglish, .imgSecDiscoUSAlosemybreathfeatcharlieputh, .imgSecDiscoUSAlosemybreathremixes,
+/* JP */ .imgSecDiscoJPskz2020, .imgSecDiscoJPtopjapanesever, .imgSecDiscoJPallin, .imgSecDiscoJPscarsthunderousjapanesever, .imgSecDiscoJPcircus, .imgSecDiscoJPcase143, .imgSecDiscoJPthesound, .imgSecDiscoJPsocialpathsuperbowljapanesever, .imgSecDiscoJPwhy, .imgSecDiscoJPgiant,
+/* KR */ .imgSecDiscoKRhellevator, .imgSecDiscoKRmixtape, .imgSecDiscoKRiamnot, .imgSecDiscoKRiamwho, .imgSecDiscoKRiamyou, .imgSecDiscoKRcle1miroh, .imgSecDiscoKRcle2yellowwood, .imgSecDiscoKRdoubleknot, .imgSecDiscoKRextraordinaryyouostpart7, .imgSecDiscoKRclelevanter, .imgSecDiscoKRmixtapegonedays, .imgSecDiscoKRmixtapeontrack, .imgSecDiscoKRtop, .imgSecDiscoKRgolive, .imgSecDiscoKRpopoutboypart1, .imgSecDiscoKRinlife, .imgSecDiscoKRallinkoreanver, .imgSecDiscoKRgoingdumb, .imgSecDiscoKRgoingdumbmikewilliamsremix, .imgSecDiscoKRmixtapeoh, .imgSecDiscoKRnoeasy, .imgSecDiscoKRchristmasevel, .imgSecDiscoKRskz2021, .imgSecDiscoKRoddinary, .imgSecDiscoKRmixtapetimeout, .imgSecDiscoKRmaxident, .imgSecDiscoKRskzreplay, .imgSecDiscoKR5star, .imgSecDiscoKRrockstar, .imgSecDiscoKRate, .imgSecDiscoKRchkchkboomremixes, .imgSecDiscoKRslash, .imgSecDiscoKRcomeplay{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 8px;
+}
+
+/* USA */ .h2SecDiscoUSA, .ulSecDiscoUSA,
+/* JP */ .h2SecDiscoJP, .ulSecDiscoJP,
+/* KR */ .h2SecDiscoKR, .ulSecDiscoKR{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/* USA */ .h6SecDiscoUSA,
+/* JP */ .h6SecDiscoJP,
+/* KR */ .h6SecDiscoKR{
+    margin-top: -15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #68151B;
+    border: none;
+    font-size: 18px;
+    margin-bottom: -24px;
+    width: 100%;
+    height: 100px;
+}
+
+#pFooterCopy{
+    color: white;
+}

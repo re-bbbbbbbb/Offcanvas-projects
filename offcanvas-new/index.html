@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stray Kids</title>
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    /* BODY */
+    body{
+      font-family:Georgia, 'Times New Roman', Times, serif; 
+      background-color: black;
+      font-size: 18px;
+    }
+
+    /* OFFCANVAS */
+    .offcanvas{
+      border-right: 5px double white;
+      background-color: black;
+      color: white;
+      width: auto;
+    }
+
+    .aUlDiscoOffset, .aUlDiscoOffset:link, .aUlDiscoOffset:visited, .aUlMemOffset, .aUlMemOffset:link, .aUlMemOffset:visited, .aUlSocialOffset, .aUlSocialOffset:link, .aUlSocialOffset:visited{
+      color: white;
+      text-decoration: none;
+    }
+
+    .aUlDiscoOffset:hover, .aUlDiscoOffset:active, .aUlMemOffset:hover, .aUlMemOffset:active, .aUlSocialOffset:hover, .aUlSocialOffset:active{
+      color: rgb(189, 189, 189);
+    }
+
+    .liDiscografia{
+      background-color: #68151B;
+      margin: 2px 0px 7px -15px;
+      text-align: left;
+      border-radius: 5px;
+      padding: 7px;
+      width: 436px;
+    }
+
+    #btnChiudiOffcanvas{
+      box-shadow: none;
+      border: none;
+      margin-left: -30px;
+    }
+
+    #btnApriOffcanvas{
+      margin-top: -24%; 
+      background-color: #ffffff00;
+      border-color: #ffffff00; 
+      color: #ffffff00; 
+      box-shadow: none; 
+      border: none;
+    }
+
+    /* SECTION */
+    .h1SecIntroduzione{
+      font-size: 45px;
+    }
+
+    .h1Sec1, .h1Sec2, .h1Sec3, .h1Sec4, .h1Sec5, .h1Sec6, .h1Sec7{
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 45px;
+    }
+
+    /* FOOTER */
+    #aLiFooterFonti, #aLiFooterFonti:hover, #aLiFooterFonti:link, #aLiFooterFonti:visited, #aLiFooterFonti:active{
+      color: white;
+      cursor: default;
+    }
+
+    .aLiFooterLink, .aLiFooterLink:link, .aLiFooterLink:visited, .aLiFooterLink:active{
+      color: white;
+    }
+    
+    #aLiFooterLink1:hover, #aLiFooterLink2:hover,  #aLiFooterLink1:active,  #aLiFooterLink2:active{
+      color: rgb(189, 189, 189);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <center><img src="img/logo-white.png" alt="logo" id="logoSkz"></center>
+
+    <!-- CORRELATI -->
+    <div class="offcanvas offcanvas-start" id="demo" >
+      
+      <div class="offcanvas-body">
+        <div class="divHeaderOffcanvas">
+          <button type="button" class="btn-close" id="btnChiudiOffcanvas" data-bs-dismiss="offcanvas"></button>
+          <h1 class="h1SecAltreinfo">Altre informazioni</h1>
+        </div>
+
+        <ul class="ulCorrelati">
+          <li class="liCorrelati"><a class="aUlMemOffset" href="membri.html">Membri</a></li>
+
+          <li class="liDiscografia">Discografia
+            <ul>
+              <li><a href="discografiaKR.html" class="aUlDiscoOffset">Corea</a></li>
+              <li><a href="discografiaJP.html" class="aUlDiscoOffset">Giappone</a></li>
+              <li><a href="discografiaUSA.html" class="aUlDiscoOffset">Stati Uniti d'America</a></li>
+            </ul>
+          </li>
+
+          <li class="liSocialCorrelati"><a class="aUlSocialOffset" href="social.html">Social</a></li>
+
+          <li class="liSocialCorrelati"><a class="aUlSocialOffset" href="https://open.spotify.com/intl-it/artist/2dIgFjalVxs4ThymZ67YCE?si=PRJDHzR8Qx2anZCLOp2ozQ" target="_blank">Spotify</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <button class="btn btn-primary" id="btnApriOffcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" >
+      <img src="img/bars.png" alt="bars" class="imgList">
+    </button>
+  </header>
+
+  <!-- SECTION -->
+  <section>
+    <!-- Introduzione -->
+    <div class="divSecIntroduzione">
+      <p>
+        <h1 class="h1SecIntroduzione">Intorduzione</h1>
+
+        Gli <b>Stray Kids</b> (in coreano <b>스트레이 키즈</b>, spesso abbreviato in <b>SKZ</b>) sono un <b>gruppo musicale</b> sudcoreano formatosi a <b>Seoul</b> nel <b>2017</b> tramite l'omonimo <b>survival show</b>.<br><br>
+        
+        Il gruppo è formato da:
+        <ul>
+          <li><b>Bang Chan;</b></li>
+          <li><b>Lee Know;</b></li>
+          <li><b>Changbin;</b></li>
+          <li><b>Hyunjin;</b></li>
+          <li><b>HAN;</b></li>
+          <li><b>Felix;</b></li>
+          <li><b>Seungmin;</b></li>
+          <li><b>I.N.</b></li>
+        </ul>
+
+        Hanno esordito ufficialmente il <b>25 marzo 2018</b> con il loro album intitolato <b>I am NOT</b> ed il video della title track "<i>District 9</i>".
+      </p>
+    </div>
+    
+    <!-- Storia - pt.1 -->
+    <div class="divSecStoria1">
+      <p>
+        <h1 class="h1Sec1">2017-2018: formazione e debutto con la trilogia <em>I am</em></h1>
+
+        Nell'agosto 2017, la <b>JYP Entertainment</b> annunciò l'uscita di un reality show dal titolo <b>Stray Kids</b>, che aveva l'intento di formare un nuovo gruppo musicale maschile.<br>
+        Il 7 ottobre, la JYP pubblicò il primo video musicale del gruppo, "<i>Hellevator</i>", successivamente pubblicato come singolo digitale.<br>
+        Nel corso del programma <b>Lee Know</b> e <b>Felix</b> vennero eliminati, ma furono poi reinseriti nella formazione finale del gruppo.<br>
+
+        <br>
+
+        Insieme alla vittoria del programma e al lancio del <b>sito ufficiale</b> degli Stray Kids, la JYP annunciò anche l'uscita del loro primo album, un <b>EP pre-esordio</b> intitolato <b>Mixtape</b>.<br>
+        L'EP venne pubblicato l'8 gennaio 2018 e comprende un totale di sette tracce co-scritte e co-composte dai membri, tra cui:
+        <ul>
+          <li>"<i>Hellevator</i>"</li>
+          <li>"<i>BEWARE</i>"</li>
+          <li>"<i>Spread My Wings</i>"</li>
+        </ul>
+        L'EP raggiunse il 2° posto nella <b>Gaon Album Chart</b> e fu inserito nella <b>Billboard's World Albums Chart</b>.<br>
+
+        <br>
+
+        Il 5 marzo, la JYP annunciò la prima esibizione pubblica del gruppo, <b>Stray Kids Unveil (Op. 01: I am NOT)</b>, che si tenne il 25 marzo alla Jangchung Arena di Seoul.<br>
+        Il giorno successivo il gruppo esordì ufficialmente con l'uscita di un secondo <b>EP</b>, intitolato <b>I am NOT</b>, e l'MV della title track, "<i>District 9</i>" stabilì il record come <b>MV K-pop di esordio più visto in sole 24 ore</b>.<br>
+        Gli MV delle tracce "<i>Grow Up</i>" e "<i>Mirror</i>" vennero pubblicati il 31 marzo e il 23 aprile.<br>
+        Con <b>I am NOT</b>, gli Stray Kids esordirono al 4° posto nella <b>Gaon Album Chart</b> e vendette oltre 54 000 copie fisiche nel solo mese di marzo.<br>
+        Il 14 aprile, il gruppo si esibì al <b>KCON Japan 2018</b>.<br>
+
+        <br>
+
+        Il 12 luglio, la JYP annunciò il secondo showcase del gruppo, <b>Stray Kids Unveil (Op. 02: I am WHO)</b>, che si tenne il 5 agosto al Grand Peace Palace della Kyung Hee University.<br>
+        Il loro terzo <b>EP</b>, intitolato <b>I am WHO</b>, e la sua title track, "<i>My Pace</i>", vennero pubblicati il giorno successivo.<br>
+
+        <br>
+
+        Il 4 ottobre, la JYP annunciò il terzo showcase del gruppo, <b>Stray Kids Unveil (Op. 03: I am YOU)</b> tenuto il 21 ottobre alla Olympic Hall e fu seguito il giorno successivo dall'uscita del nuovo <b>EP</b>, <b>I am YOU</b>.<br>
+
+        <br>
+
+        Il 12 ottobre, ai <b>MAMA 2018</b>, il gruppo si aggiudicò due premi per le categorie <b>Best New Male Artist</b> e <b>Rookie of the Year</b>.
+      </p>
+    </div>
+    
+    <!-- Storia - pt.2 -->
+    <div class="divSecStoria2">
+      <p>
+        <h1 class="h1Sec2">2019: trilogia <em>Clè</em></h1>
+
+        All'inizio del 2019, gli Stray Kids annunciarono numerosi nuovi progetti:
+        <ul>
+          <li>Global Unveil Tour;</li>
+          <li>Hi-STAY Tour in Corea;</li>
+          <li>reality show;</li>
+          <li>SKZ-Player;</li>
+          <li>Mixtape Project;</li>
+          <li>l'uscita del lightstick ufficiale ;</li>
+          <li>il loro primo concerto in assoluto.</li>
+        </ul>
+
+        Il 5 marzo, la JYP annunciò il comeback del gruppo il giorno del loro primo anniversario, il 25 marzo.<br>
+        Quel giorno uscì un nuovo <b>album</b>, nonché <b>Clé 1 : MIROH</b>.<br>
+        Grazie alla title track, "<i>MIROH</i>", il 4 aprile gli Stray Kids vinsero il loro primo premio musicale durante il programma <b>M Countdown</b>.<br>
+
+        <br>
+
+        Il 19 giugno, venne pubblicato un secondo album, <b>Clé 2 : Yellow Wood</b>, trainato dalla title track "<i>Side Effects</i>", e subito dopo venne ripreso il tour <b>Stray Kids Unveil (Op.03: I am YOU)</b>.<br>
+        Il gruppo poi annunciò l'uscita di un nuovo <b>singolo digitale</b>, <b>Double Knot</b>, previsto per il 9 ottobre, e due progetti:
+        <ul>
+          <li>il nuovo tour mondiale <b>District 9 Unlock World Tour</b>;</li>
+          <li>l'uscita dell'<b>album</b> <b>Clé : LEVANTER</b>, prevista per il 25 novembre.</li>
+        </ul>
+
+        <br>
+
+        Il 28 ottobre la JYP Entertainment annunciò l'uscita di Woojin dal gruppo per motivi personali.<br>
+
+        <br>
+
+        Il 13 novembre uscì l'MV di "<i>Astronaut</i>" e il 9 dicembre quello di "<i>Levanter</i>", canzone con la quale, il 19 dicembre, il gruppo si aggiudicò il suo secondo premio musicale.<br>
+
+        <br>
+        
+        Il 15 dicembre, sulla pagina Twitter ufficiale della JYP, venne pubblicato un comunicato riguardo i problemi di ansia sociale di HAN, il quale, nonostante fosse già in cura, non avrebbe potuto partecipare agli eventi futuri programmati per il gruppo.<br>
+
+        <br>
+
+        Il 26 dicembre viene postato il primo singolo del <b>Mixtape Project</b>, annunciato a inizio anno e intitolato <b>Mixtape : Gone Days</b>.
+      </p>
+    </div>
+    
+    <!-- Storia - pt.3 -->
+    <div class="divSecStoria3">
+      <p>
+        <h1 class="h1Sec3">2020: esordio giapponese, serie <em>生</em> e <em>ALL IN</em></h1>
+
+        Nel 2020, il gruppo pubblicò le versioni in <b>inglese</b> di "<i>Double Knot</i>" e di "<i>Levanter</i>", brani tratti da <b>Clé : LEVANTER</b>.<br>
+        Per la versione inglese di "<i>Double Knot</i>" fu anche girato un MV, pubblicato il 24 gennaio 2020.<br>
+
+        <br>
+
+        Il 18 marzo, il gruppo fece il suo <b>esordio giapponese</b> con la <b>raccolta</b> <b>SKZ2020</b>, che conteneva le loro hit più conosciute registrate senza Woojin e in cui vennero incluse anche le versioni <b>giapponesi</b> di "<i>My Pace</i>", "<i>Double Knot</i>" e "<i>Levanter</i>".<br>
+
+        <br>
+
+        Per via delle questioni sanitarie e delle restrizioni imposte dalla pandemia di COVID-19, il <b>District 9 Unlock World Tour</b> venne posticipato a lungo termine.<br>
+        Nel frattempo, il gruppo pubblicò la seconda traccia del <b>Mixtape Project</b>, intitolata <b>Mixtape : On Track</b>, e l'1 aprile 2020 ha annunciato il rilascio del loro primo <b>mini-album giapponese</b>, <b>TOP</b>, in data 3 giugno.<br>
+        La canzone "<i>TOP</i>", tradotta poi in coreano e inglese, fu usata come sigla dell'anime <b>Tower of God</b>.<br>
+        Il video musicale uscì il 26 maggio.<br>
+
+        <br>
+
+        Il 17 giugno venne pubblicato il loro primo <b>album in studio</b>, <b>GO LIVE (GO生)</b> con la title track, "<i>God's Menu</i>".<br>
+        L'album divenne il più venduto del gruppo, esordendo in cima al <b>Gaon Album Chart settimanale</b>, vendendo 243.462 copie di lì alla fine del mese e piazzandosi poi nella <b>Gaon Album Chart mensile</b>.<br>
+        L'album ricevette inoltre la <b>certificazione di platino</b> per aver venduto più di 250.000 copie nel mese di agosto, diventando il primo album degli Stray Kids a raggiungere tale traguardo.<br>
+        La traccia "<i>God's Menu</i>" divenne il primo singolo del gruppo a comparire nel <b>Gaon Download Chart settimanale</b>, alla posizione 144.<br>
+
+        <br>
+
+        Il 14 settembre, venne pubblicata una <b>riedizione dell'album</b> dal titolo <b>IN LIFE (IN生)</b> e contenente otto nuove tracce, tra cui la title track è "<i>Back Door</i>".<br>
+        Nel corso della promozione dell'album, il gruppo vinse due premi negli show musicali <b>Show Champion</b> (MBC) e <b>M Countdown</b> (Mnet).<br>
+        La traccia "<i>Back Door</i>" fu inoltre inclusa dal <b>Time</b> all'ottava posizione della sua classifica delle 10 migliori canzoni del 2020, diventando l'unica canzone di un artista coreano sulla lista.<br>
+
+        <br>
+
+        Il 4 novembre, gli Stray Kids pubblicarono il loro primo <b>album giapponese</b>, intitolato <b>ALL IN</b>, e trainato dall'omonima title track.<br>
+        L'album include sette brani, tra cui le <b>versioni giapponesi</b> di "<i>God's Menu</i>" e di "<i>Back Door</i>", nonché il singolo "<i>TOP</i>".<br>
+        Il 22 novembre, il gruppo tenne il suo primo concerto online, <b>Unlock: Go Live in Life</b>, considerato il seguito del <b>District 9: Unlock</b> posposto a causa della pandemia.<br>
+        Durante il concerto, la band si esibì per la prima volta nella versione <b>coreana</b> di "<i>ALL IN</i>", che fu pubblicata come singolo digitale il 26 novembre.<br>
+
+        <br>
+
+        Ai <b>MAMA 2020</b> di dicembre venne annunciato che gli Stray Kids avrebbero partecipato al programma della <b>Mnet</b>, <b>Kingdom: Legendary War</b> a fianco dei gruppi musicali:
+        <ul>
+          <li>Ateez;</li>
+          <li>The Boyz;</li>
+          <li>BTOB;</li>
+          <li>iKon;</li>
+          <li>SF9.</li>
+        </ul>
+      </p>
+    </div>
+    
+    <!-- Storia - pt.4 -->
+    <div class="divSecStoria4">
+      <p>
+        <h1 class="h1Sec4">	2021: <em>Kingdom: Legendery War</em> e <em>Noeasy</em></h1>
+
+        Il 20 febbraio 2021, gli Stray Kids partecipano al loro primo <b>fan meeting</b>, <b>Stray Kids 1st #LoveSTAY "SKZ-X"</b>, su VLive.<br>
+        Il 18 marzo, ebbe luogo il loro primo <b>fan meeting giapponese</b>, <b>STAYing Home Meeting</b>, in occasione del primo anniversario dell'esordio giapponese del gruppo.<br>
+
+        <br>
+
+        Il 19 marzo venne pubblicato, in collaborazione con il produttore e DJ svedese <b>Alesso</b> e il DJ cinese <b>CORSAK</b>, il singolo <b>Going Dumb</b>, poi utilizzato per la versione mobile del gioco <b>PUBG</b>.<br>
+
+        <br>
+
+        Il 28 maggio, gli Stray Kids pubblicarono il brano "<i>WOLFGANG</i>" per la finale di <b>Kingdom: Legendary War</b>, vincendo il programma il 3 giugno.<br>
+
+        <br>
+
+        Il 25 giugno, gli Stray Kids pubblicano la terza traccia del <b>Mixtape Project</b> intitolata <b>Mixtape : OH (애)</b>.<br>
+        In questa occasione fu anche annunciato che Hyunjin sarebbe tornato a partecipare alle attività del gruppo a partire da luglio, dopo un periodo di hiatus in seguito ad accuse di bullismo mosse contro l'idol nel febbraio precedente e risultate tutte false.<br>
+
+        <br>
+
+        Il 30 luglio venne annunciata l'uscita, prevista per il 13 ottobre, del loro secondo <b>singolo giapponese</b>, <b>Scars</b>.<br>
+
+        <br>
+
+        Il 23 agosto il gruppo pubblicò il secondo <b>album</b> intitolato <b>NOEASY</b>, la cui title track è "<i>Thunderous (소리꾼)</i>".<br>
+        L'album vendette 930.000 prenotazioni e superò il milione di copie vendute dopo la prima settimana dall'uscita, diventando l'album più venduto nella storia della JYP Entertainment.<br>
+        In occasione del ritorno, gli Stray Kids partecipano a un reality show e allo show speciale <b>Kingdom Week</b>, premio per aver vinto l'omonimo programma di Mnet.<br>
+        
+        <br>
+
+        Il 18 novembre venne annunciata l'uscita, prevista per il 29 novembre, del <b>singolo natalizio</b> intitolato <b>Christmas EveL</b>, contenente altri tre brani.<br>
+
+        <br>
+
+        Il 23 dicembre pubblicarono <b>SKZ2021</b>, con "<i>Scars</i>" in <b>coreano</b> come title track e con le restanti canzoni ri-registrate non presenti nella compilation precedente.
+      </p>
+    </div>
+    
+    <!-- Storia - pt.5 -->
+    <div class="divSecStoria5">
+      <p>
+        <h1 class="h1Sec5">2022: <em>ODDINARY</em>, <em>Circus</em> e <em>Maxident</em></h1>
+
+        Il 10 febbraio 2022, fu annunciato che gli Stray Kids avevano firmato assieme alle <b>Itzy</b> un contratto con l'etichetta discografica americana <b>Republic Records</b> per la promozione negli Stati Uniti come parte della collaborazione strategica della JYP Entertainment con l'etichetta stessa.<br>
+        Il gruppo tenne il suo secondo incontro con i fan, <b>2nd #LoveStay "SKZ's Chocolate Factory"</b>, dal 12 al 13 febbraio all'Olympic Hall, di cui il secondo giorno fu trasmesso anche tramite Beyond Live.<br>
+        Il 18 marzo, gli Stray Kids pubblicarono il loro sesto <b>EP</b>, ovvero <b>ODDINARY</b>, con "<i>MANIAC</i>" come title track.<br>
+        Esso divenne il primo album degli Stray Kids ad apparire nella classifica <b>Billboard 200</b>, il che li rese il terzo gruppo coreano nella storia a raggiungere la vetta della classifica, dopo i BTS e i SuperM, vendendo oltre 1.5 milioni di copie a marzo.<br>
+        A sostegno dell'EP, il 6 marzo seguente il gruppo annunciò l'arrivo del suo secondo <b>tour mondiale</b>, <b>MANIAC</b>, il cui avvio fu in aprile a Seoul, con proseguimento in Giappone e negli Stati Uniti.<br>
+
+        <br>
+
+        Il 22 giugno fu rilasciato il loro secondo <b>album giapponese</b>, <b>CIRCUS</b>, con la versione <b>giapponese</b> di "<i>MANIAC</i>", il brano "<i>Your Eyes</i>" e il brano "<i>CIRCUS</i>" come singoli.<br>
+        L'album esordì al secondo posto della <b>Oricon Albums Chart</b> e nella <b>Billboard Japan Hot Albums</b>.<br>
+
+        <br>
+
+        Il 7 ottobre, gli Stray Kids pubblicarono <b>MAXIDENT</b>, il loro nono <b>EP</b> con la title track "<i>CASE 143</i>".<br>
+        MAXIDENT vendette oltre 3.000.000 di copie ed fu certificato triplo milione da <b>KMCA</b>, diventando così il primo album degli Stray Kids e della JYP Entertainment a raggiungere tale traguardo.<br>
+
+        <br>
+
+        Il 21 dicembre, pubblicarono il loro terzo <b>album di compilation</b>, intitolato <b>SKZ-REPLAY</b>, contenente le loro canzoni pubblicate in precedenza in modo non "ufficiale", insieme a brani cantati da ciascun membro da solista.
+      </p>
+    </div>
+    
+    <!-- Storia - pt.6 -->
+    <div class="divSecStoria6">
+      <p>
+        <h1 class="h1Sec6">2023: <em>THE SOUND</em>, <em>5-STAR</em>, <em>Super Bowl (Japanese Ver.)</em> e <em>ROCK-STAR</em></h1>
+
+        Il 22 febbraio 2023, gli Stray Kids rilasciarono il loro primo <b>album di debutto in studio</b> in <b>giapponese</b>, intitolato <b>THE SOUND</b>.<br>
+        Il gruppo annunciò l'uscita, prevista il 2 giugno 2023, del loro terzo <b>album in studio</b>, <b>5-STAR (특)</b>, con il singolo "<i>S-Class</i>".<br>
+        L'album fu accompagnato dal terzo incontro con i fan del gruppo <b>Pilot: for 5-STAR</b> al KSPO Dome l'1 e il 2 luglio.<br>
+
+        <br>
+
+        Il gruppo ha pubblicato il terzo <b>album in studio</b>, <b>5-STAR</b>, il 2 giugno 2023, con la title track "<i>S-Class</i>", con il featuring del rapper <b>Tiger JK</b> nel brano "<i>TOPLINE</i>".<br>
+        Affronta temi di unicità, fiducia e aspirazioni.<br>
+        L'album ha raggiunto il numero uno in varie regioni, tra cui Corea del Sud, Francia, Stati Uniti, etc.; è il terzo album consecutivo numero uno del gruppo nel paese.<br>
+        Ha venduto oltre 5 milioni di copie a giugno ed è stato certificato come tale da <b>KMCA</b>.<br>
+        "<i>S-Class</i>" ha vinto il premio per il miglior MV K-Pop agli <b>MTV Video Music Awards 2023</b>.<br>
+
+        <br>
+
+        Il 21 luglio, il gruppo fu protagonista del festival musicale <b>Lollapalooza</b> a <b>Parigi</b>, come primi artisti K-pop nel festival musicale francese.<br>
+
+        <br>
+
+        Pubblicano il terzo <b>EP</b> in lingua <b>giapponese</b> del gruppo, intitolato <b>Social Path / Super Bowl (Japanese Ver.)</b>, il 6 settembre, con la cantautrice giapponese <b>LiSA</b> e la versione <b>giapponese</b> di "<i>Super Bowl</i>".<br>
+        È diventato il secondo numero uno e il primo record certificato da un milione in Giappone.<br>
+        Gli Stray Kids sono apparsi nella versione remix di "<i>All My Life</i>" di <b>Lil Durk</b>, in ottobre, e hanno pubblicato il loro ottavo <b>EP</b>, in lingua <b>coreana</b>, <b>ROCK-STAR</b> il 10 novembre, con la title track "<i>LALALALA</i>".<br>
+        L'EP raggiunse la vetta delle classifiche in Corea del Sud e negli Stati Uniti, mentre "<i>LALALALA</i>" entrò per la prima volta nella storia del gruppo nella <b>Billboard Hot 100</b> al numero 90.
+      </p>
+    </div>
+    
+    <!-- Storia - pt.7 -->
+    <div class="divSecStoria7">
+      <p>
+        <h1 class="h1Sec7">2024: <em>Lose my Breath</em>, <em>ATE</em></h1>
+
+        Gli Stray Kids hanno partecipato al <b>Met Gala 2024</b> come ospiti dello stilista <b>Tommy Hilfiger</b>.<br>
+        Sono stati i primi gruppi K-Pop in cui tutti i membri si sono presentati insieme al Met Gala, e si sono classificati al primo posto nella classifica <b>Red Carpet Power Ranking</b> nella categoria maschile, secondo The Hollywood Reporter.<br>
+
+        <br>
+
+        Gli Stray Kids hanno pubblicato il singolo <b>Lose My Breath</b>, con il cantautore americano <b>Charlie Puth</b>, il 10 maggio.<br>
+        La canzone raggiunse la posizione numero 90 nella <b>Billboard Hot 100</b> e la numero 97 nella <b>UK Singles Chart</b>.<br>
+
+        <br>
+
+        JYP ha annunciato il 18 luglio che gli Stray Kids hanno <b>rinnovato</b> i loro <b>contratti</b> con l'etichetta.<br>
+
+        <br>
+
+        Il loro nono <b>EP</b>, in lingua <b>coreana</b>, <b>ATE</b> è stato pubblicato il 19 luglio, con "<i>Chk Chk Boom</i>" come title track.<br>
+        L'EP è in cima alle classifiche degli album in Corea del Sud, Belgio, Francia e Stati Uniti.<br>
+        Questi ultimi rendono gli Stray Kids il primo gruppo maschile e il secondo in assoluto a raggiungere la vetta della classifica con i loro ultimi cinque album in classifica.<br>
+
+        <br>
+
+        "<i>Chk Chk Boom</i>" divenne anche la vetta personale più alta della <b>UK Singles Chart</b> e della <b>Billboard Hot 100</b> rispettivamente al numero 30 e 49.<br>
+        A sostegno dell'EP, il gruppo è stato l'headliner dei principali festival musicali <b>I-Days</b> a Milano, <b>BST Hyde Park</b> a Londra e <b>Lollapalooza</b> a Chicago, oltre a intraprendere il terzo tour mondiale: "<b>DominATE World Tour</b>", con partenza in agosto da Seoul e viaggio in Asia, Australia, America Latina, Nord America ed Europa.<br>
+
+        <br>
+
+        Inoltre, gli Stray Kids hanno scritto e prodotto <b>SLASH</b>, che figura nell'album della colonna sonora del film di supereroi americano <b>Deadpool & Wolverine (2024)</b>.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" id="containerFooter">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <p class="col-md-4 mb-0 text-body-secondary" id="pFooterCopy">&copy; 2024 Company, Inc</p>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#aLiFooterFonti" class="nav-link px-2 text-body-secondary" id="aLiFooterFonti">Fonti: </a></li>
+          <li class="nav-item"><a href="https://it.wikipedia.org/wiki/Stray_Kids" class="nav-link px-2 text-body-secondary aLiFooterLink" target="_blank" id="aLiFooterLink1">Wikipedia</a></li>
+          <li class="nav-item"><a href="https://stray-kids.fandom.com/wiki/Stray_Kids" class="nav-link px-2 text-body-secondary aLiFooterLink" target="_blank" id="aLiFooterLink2">Wiki Fandom</a></li>
+        </ul>
+      </footer>
+    </div>
+  </footer>
+</body>
+</html>

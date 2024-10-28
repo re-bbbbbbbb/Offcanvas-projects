@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title" style="color:rgb(87, 0, 128);"><b></b>Barra laterale - istruzioni</b></h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Per creare la barra laterale si usa il tag:
+        <ul>
+            <li><b style="color:rgb(189, 13, 159);">div class="offcanvas offcanvas-start show" id="demo" style="visibility: visible;" aria-modal="true" role="dialog"</b></li>
+        </ul>
+    </p>
+    <p>Altri esempi di offcanvas sono:
+        <ul>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas</b> => è la classe che crea la barra laterale offcanvas.</li>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas-start</b> => è la classe che posiziona l'offcanvas e lo rende largo 400 px.</li>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas-title</b> => è la classe che garantisce margini e altezza della linea corretti.</li>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas-body</b> => è la classe con cui puoi aggiungere i tuoi contenuti all'interno della barra laterale.</li>
+            <li>I tag <b style="color: rgb(144, 0, 211)">button</b> e <b style="color: rgb(144, 0, 211)">a</b> => servono per aprire la barra laterale offcanvas, elementi presenti nel tag <b style="color: rgb(144, 0, 211)">.offcanvascontenitore</b>.</li>
+        </ul>
+    </p>
+    <p>I tag che si usano per posizionare l'area offcanvas a sinistra, a destra, in alto o in basso sono:
+        <ul>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas-end</b> => posiziona la barra a destra.</li>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas-start</b> => posiziona la barra a sinistra.</li>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas-top</b> => posiziona la barra in alto.</li>
+            <li><b style="color: rgb(144, 0, 211)">.offcanvas-bottom</b> => posiziona la barra in basso.</li>
+        </ul>
+    </p>
+    <button class="btn btn-secondary" type="button" style="background-color: palevioletred; color:black; border-color: palevioletred;">Secondo pulsante</button>
+    </br>
+    <p>L'ultimo bottone citato si crea usando il seguente tag:
+        <ul>
+            <li><b style="color:rgb(189, 13, 159);">button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"</b></li>
+        </ul>
+    </p>
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3 style="color:rgb(87, 0, 128);"><b>Offcanvas barra laterale</b></h3>
+  <p>Offcanvas viene spesso utilizzato come menu di navigazione della barra laterale.</p>
+  <p>Per creare il bottone bisogna usare il tag:
+    <ul>
+        <li><b style="color:rgb(189, 13, 159);">button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"</b></li>
+    </ul>  
+  </p>
+
+
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" style="background-color: rgb(87, 0, 128); color: white; border-color: rgb(87, 0, 128);">
+    Click per aprire la barra laterale
+  </button>
+</div>
+
+</body>
+</html>

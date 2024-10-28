@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stray Kids</title>
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    /* BODY */
+    body{
+      font-family:Georgia, 'Times New Roman', Times, serif; 
+      background-color: black;
+      font-size: 18px;
+    }
+
+    /* OFFCANVAS */
+    .offcanvas{
+      border-right: 5px double white;
+      background-color: black;
+      color: white;
+      width: auto;
+    }
+
+    .aUlDiscoOffset, .aUlDiscoOffset:link, .aUlDiscoOffset:visited, .aUlMemOffset, .aUlMemOffset:link, .aUlMemOffset:visited, .aUlSocialOffset, .aUlSocialOffset:link, .aUlSocialOffset:visited{
+      color: white;
+      text-decoration: none;
+    }
+
+    .aUlDiscoOffset:hover, .aUlDiscoOffset:active, .aUlMemOffset:hover, .aUlMemOffset:active, .aUlSocialOffset:hover, .aUlSocialOffset:active{
+      color: rgb(189, 189, 189);
+    }
+
+    .liDiscografia{
+      background-color: #68151B;
+      margin: 2px 0px 7px -15px;
+      text-align: left;
+      border-radius: 5px;
+      padding: 7px;
+      width: 436px;
+    }
+
+    #btnChiudiOffcanvas{
+      box-shadow: none;
+      border: none;
+      margin-left: -30px;
+    }
+
+    #btnApriOffcanvas{
+      margin-top: -24%; 
+      background-color: #ffffff00;
+      border-color: #ffffff00; 
+      color: #ffffff00; 
+      box-shadow: none; 
+      border: none;
+    }
+
+    /* SECTION */
+    .h1SecIntroduzione{
+      font-size: 45px;
+    }
+
+    .h1Sec1, .h1Sec2, .h1Sec3, .h1Sec4, .h1Sec5, .h1Sec6, .h1Sec7{
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 45px;
+    }
+
+    /* FOOTER */
+    #aLiFooterFonti, #aLiFooterFonti:hover, #aLiFooterFonti:link, #aLiFooterFonti:visited, #aLiFooterFonti:active{
+      color: white;
+      cursor: default;
+    }
+
+    .aLiFooterLink, .aLiFooterLink:link, .aLiFooterLink:visited, .aLiFooterLink:active{
+      color: white;
+    }
+    
+    #aLiFooterLink1:hover, #aLiFooterLink2:hover,  #aLiFooterLink1:active,  #aLiFooterLink2:active{
+      color: rgb(189, 189, 189);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <center><img src="img/logo-white.png" alt="logo" id="logoSkz"></center>
+
+    <!-- CORRELATI -->
+    <div class="offcanvas offcanvas-start" id="demo" >
+      
+      <div class="offcanvas-body">
+        <div class="divHeaderOffcanvas">
+          <button type="button" class="btn-close" id="btnChiudiOffcanvas" data-bs-dismiss="offcanvas"></button>
+          <h1 class="h1SecAltreinfo">Altre informazioni</h1>
+        </div>
+
+        <ul class="ulCorrelati">
+          <li class="liCorrelati"><a class="aUlMemOffset" href="index.html">Homepage</a></li>
+          
+          <li class="liCorrelati"><a class="aUlMemOffset" href="membri.html">Membri</a></li>
+
+          <li class="liDiscografia">Discografia
+            <ul>
+              <li><a href="discografiaKR.html" class="aUlDiscoOffset">Corea</a></li>
+              <li><a href="discografiaJP.html" class="aUlDiscoOffset">Giappone</a></li>
+              <li><a href="discografiaUSA.html" class="aUlDiscoOffset">Stati Uniti d'America</a></li>
+            </ul>
+          </li>
+
+          <li class="liSocialCorrelati"><a class="aUlSocialOffset" href="social.html">Social</a></li>
+
+          <li class="liSocialCorrelati"><a class="aUlSocialOffset" href="https://open.spotify.com/intl-it/artist/2dIgFjalVxs4ThymZ67YCE?si=PRJDHzR8Qx2anZCLOp2ozQ" target="_blank">Spotify</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <button class="btn btn-primary" id="btnApriOffcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" >
+      <img src="img/bars.png" alt="bars" class="imgList">
+    </button>
+  </header>
+
+  <!-- SECTION -->
+  <section>
+
+    <!-- SKZ2020 -->
+    <div class="row" id="divSecDiscoJpskz2020">
+      <div class="col-md-3">
+        <img src="img/album/japanese/01-skz2020.png" class="imgSecDiscoJPskz2020" alt="skz2020">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">SKZ2020</h2>
+        <h6 class="h6SecDiscoJP"><em>18 marzo 2020</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>Hellevator - 3:59</li>
+          <li>BEWARE - 3:10</li>
+          <li>Spread My Wings - 3:22</li>
+          <li>YAYAYA - 3:22</li>
+          <li>District 9 - 3:33</li>
+          <li>Mirror - 3:42</li>
+          <li>Grow Up - 3:33</li>
+          <li>My Pace - 3:10</li>
+          <li>Voices - 3:22</li>
+          <li>Question - 3:04</li>
+          <li>M.I.A. - 3:31</li>
+          <li>Awkward Silence - 3:15</li>
+          <li>I am YOU - 3:26</li>
+          <li>Get Cool - 3:16</li>
+          <li>MIROH - 3:28</li>
+          <li>Victory Song - 3:18</li>
+          <li>Boxer - 3:22</li>
+          <li>Chronosaurus - 3:20</li>
+          <li>19 - 3:26</li>
+          <li>Side Effects - 3:15</li>
+          <li>TMT - 3:29</li>
+          <li>Double Knot - 3:11</li>
+          <li>Levanter - 3:17</li>
+          <li>Astronaut - 3:00</li>
+          <li>風 Levanter (Japanese Ver.) - 3:17</li>
+          <li>Double Knot (Japanese Ver.) - 3:10</li>
+          <li>My Pace (Japanese Ver.) - 3:09</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TOP (Japanese Ver.) -->
+    <div class="row" id="divSecDiscoJptopjapanesever">
+      <div class="col-md-3">
+        <img src="img/album/japanese/02-topjapanese.png" class="imgSecDiscoJPtopjapanesever" alt="topjapanesever">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">TOP (Japanese Ver.)</h2>
+        <h6 class="h6SecDiscoJP"><em>3 giugno 2020</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>TOP (Japanese Ver.) - 3:08</li>
+          <li>SLUMP (Japanese Ver.) - 2:17</li>
+          <li>TOP (Instrumental) - 3:08</li>
+          <li>SLUMP (Instrumental) - 2:16</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ALL IN -->
+    <div class="row" id="divSecDiscoJpallin">
+      <div class="col-md-3">
+        <img src="img/album/japanese/03-allin.png" class="imgSecDiscoJPallin" alt="allin">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">ALL IN</h2>
+        <h6 class="h6SecDiscoJP"><em>27 ottobre 2020</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>ALL IN - 3:07</li>
+          <li>FAM - 3:35</li>
+          <li>One Day - 3:13</li>
+          <li>神メニュ God's Menu (Japanese Ver.) - 2:50</li>
+          <li>Back Door (Japanese Ver.) - 3:11</li>
+          <li>TOP (Japanese Ver.) - 3:08</li>
+          <li>SLUMP (Japanese Ver.) - 2:16</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scars / Thunderous (Japanese Ver.) -->
+    <div class="row" id="divSecDiscoJpscarsthunderousjapanesever">
+      <div class="col-md-3">
+        <img src="img/album/japanese/04-scarsthunderousjapanese.png" class="imgSecDiscoJPscarsthunderousjapanesever" alt="scarsthunderousjapanesever">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">Scars / Thunderous (Japanese Ver.)</h2>
+        <h6 class="h6SecDiscoJP"><em>13 ottobre 2021</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>Scars - 3:20</li>
+          <li>ソリクン Thunderous (Japanese Ver.) - 3:05</li>
+          <li>CALL - 2:47</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CIRCUS -->
+    <div class="row" id="divSecDiscoJpcircus">
+      <div class="col-md-3">
+        <img src="img/album/japanese/05-circus.png" class="imgSecDiscoJPcircus" alt="circus">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">CIRCUS</h2>
+        <h6 class="h6SecDiscoJP"><em>22 giugno 2022</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>CIRCUS - 3:14</li>
+          <li>Fairytale - 2:52</li>
+          <li>蜘蛛の糸 VENOM (Japanese Ver.) - 3:15</li>
+          <li>MANIAC (Japanese Ver.) - 3:04</li>
+          <li>Silent Cry (Japanese Ver.) - 3:31</li>
+          <li>Your Eyes - 3:16</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CASE 143 (Japanese Ver.) -->
+    <div class="row" id="divSecDiscoJpcase143">
+      <div class="col-md-3">
+        <img src="img/album/japanese/06-case143japanese.png" class="imgSecDiscoJPcase143" alt="case143">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">CASE 143 (Japanese Ver.)</h2>
+        <h6 class="h6SecDiscoJP"><em>15 dicembre 2022</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>CASE 143 (Japanese Ver.) - 3:12</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- THE SOUND -->
+    <div class="row" id="divSecDiscoJpthesound">
+      <div class="col-md-3">
+        <img src="img/album/japanese/07-thesound.png" class="imgSecDiscoJPthesound" alt="thesound">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">THE SOUND</h2>
+        <h6 class="h6SecDiscoJP"><em>22 febbraio 2023</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>THE SOUND - 3:00</li>
+          <li>Battle Ground - 3:33</li>
+          <li>Lost Me - 3:09</li>
+          <li>DLMLU - 3:14</li>
+          <li>Novel - 3:08</li>
+          <li>CASE 143 (Japanese Ver.) - 3:13</li>
+          <li>CHILL (Japanese Ver.) - 3:18</li>
+          <li>Scars - 3:19</li>
+          <li>ソリクン Thunderous (Japanese Ver.) - 3:04</li>
+          <li>There - 3:35</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social Path (feat. LiSA) / Super Bowl (Japanese Ver.) -->
+    <div class="row" id="divSecDiscoJpsocialpathsuperbowljapanesever">
+      <div class="col-md-3">
+        <img src="img/album/japanese/08-socialpathfeatlisasuperbowljapanese.png" class="imgSecDiscoJPsocialpathsuperbowljapanesever" alt="socialpathsuperbowljapanesever">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">Social Path (feat. LiSA) / Super Bowl (Japanese Ver.)</h2>
+        <h6 class="h6SecDiscoJP"><em>6 settembre 2023</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>Social Path (feat. LiSA) - 3:18</li>
+          <li>Super Bowl (Japanese Ver.) - 3:05</li>
+          <li>Butterflies - 3:10</li>
+          <li>Social Path (feat. LiSA) (Instrumental) - 3:18</li>
+          <li>Butterflies (Instrumental) - 3:09</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- WHY? -->
+    <div class="row" id="divSecDiscoJpwhy">
+      <div class="col-md-3">
+        <img src="img/album/japanese/09-why.png" class="imgSecDiscoJPwhy" alt="why">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoJP">WHY?</h2>
+        <h6 class="h6SecDiscoJP"><em>11 aprile 2024</em></h6>
+
+        <ul class="ulSecDiscoJP">
+          <li>WHY? - 3:48</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" id="containerFooter">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <p class="col-md-4 mb-0 text-body-secondary" id="pFooterCopy">&copy; 2024 Company, Inc</p>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#aLiFooterFonti" class="nav-link px-2 text-body-secondary" id="aLiFooterFonti">Fonti: </a></li>
+          <li class="nav-item"><a href="https://it.wikipedia.org/wiki/Stray_Kids" class="nav-link px-2 text-body-secondary aLiFooterLink" target="_blank" id="aLiFooterLink1">Wikipedia</a></li>
+          <li class="nav-item"><a href="https://stray-kids.fandom.com/wiki/Stray_Kids" class="nav-link px-2 text-body-secondary aLiFooterLink" target="_blank" id="aLiFooterLink2">Wiki Fandom</a></li>
+        </ul>
+      </footer>
+    </div>
+  </footer>
+</body>
+</html>

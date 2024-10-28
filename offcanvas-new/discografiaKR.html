@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stray Kids</title>
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    /* BODY */
+    body{
+      font-family:Georgia, 'Times New Roman', Times, serif; 
+      background-color: black;
+      font-size: 18px;
+    }
+
+    /* OFFCANVAS */
+    .offcanvas{
+      border-right: 5px double white;
+      background-color: black;
+      color: white;
+      width: auto;
+    }
+
+    .aUlDiscoOffset, .aUlDiscoOffset:link, .aUlDiscoOffset:visited, .aUlMemOffset, .aUlMemOffset:link, .aUlMemOffset:visited, .aUlSocialOffset, .aUlSocialOffset:link, .aUlSocialOffset:visited{
+      color: white;
+      text-decoration: none;
+    }
+
+    .aUlDiscoOffset:hover, .aUlDiscoOffset:active, .aUlMemOffset:hover, .aUlMemOffset:active, .aUlSocialOffset:hover, .aUlSocialOffset:active{
+      color: rgb(189, 189, 189);
+    }
+
+    .liDiscografia{
+      background-color: #68151B;
+      margin: 2px 0px 7px -15px;
+      text-align: left;
+      border-radius: 5px;
+      padding: 7px;
+      width: 436px;
+    }
+
+    #btnChiudiOffcanvas{
+      box-shadow: none;
+      border: none;
+      margin-left: -30px;
+    }
+
+    #btnApriOffcanvas{
+      margin-top: -24%; 
+      background-color: #ffffff00;
+      border-color: #ffffff00; 
+      color: #ffffff00; 
+      box-shadow: none; 
+      border: none;
+    }
+
+    /* SECTION */
+    .h1SecIntroduzione{
+      font-size: 45px;
+    }
+
+    .h1Sec1, .h1Sec2, .h1Sec3, .h1Sec4, .h1Sec5, .h1Sec6, .h1Sec7{
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 45px;
+    }
+
+    /* FOOTER */
+    #aLiFooterFonti, #aLiFooterFonti:hover, #aLiFooterFonti:link, #aLiFooterFonti:visited, #aLiFooterFonti:active{
+      color: white;
+      cursor: default;
+    }
+
+    .aLiFooterLink, .aLiFooterLink:link, .aLiFooterLink:visited, .aLiFooterLink:active{
+      color: white;
+    }
+    
+    #aLiFooterLink1:hover, #aLiFooterLink2:hover,  #aLiFooterLink1:active,  #aLiFooterLink2:active{
+      color: rgb(189, 189, 189);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <center><img src="img/logo-white.png" alt="logo" id="logoSkz"></center>
+
+    <!-- CORRELATI -->
+    <div class="offcanvas offcanvas-start" id="demo" >
+      
+      <div class="offcanvas-body">
+        <div class="divHeaderOffcanvas">
+          <button type="button" class="btn-close" id="btnChiudiOffcanvas" data-bs-dismiss="offcanvas"></button>
+          <h1 class="h1SecAltreinfo">Altre informazioni</h1>
+        </div>
+
+        <ul class="ulCorrelati">
+          <li class="liCorrelati"><a class="aUlMemOffset" href="index.html">Homepage</a></li>
+          
+          <li class="liCorrelati"><a class="aUlMemOffset" href="membri.html">Membri</a></li>
+
+          <li class="liDiscografia">Discografia
+            <ul>
+              <li><a href="discografiaKR.html" class="aUlDiscoOffset">Corea</a></li>
+              <li><a href="discografiaJP.html" class="aUlDiscoOffset">Giappone</a></li>
+              <li><a href="discografiaUSA.html" class="aUlDiscoOffset">Stati Uniti d'America</a></li>
+            </ul>
+          </li>
+
+          <li class="liSocialCorrelati"><a class="aUlSocialOffset" href="social.html">Social</a></li>
+
+          <li class="liSocialCorrelati"><a class="aUlSocialOffset" href="https://open.spotify.com/intl-it/artist/2dIgFjalVxs4ThymZ67YCE?si=PRJDHzR8Qx2anZCLOp2ozQ" target="_blank">Spotify</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <button class="btn btn-primary" id="btnApriOffcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" >
+      <img src="img/bars.png" alt="bars" class="imgList">
+    </button>
+  </header>
+
+  <!-- SECTION -->
+  <section>
+
+    <!-- Hellevator -->
+    <div class="row" id="divSecDiscoKRhellevator">
+      <div class="col-md-3">
+        <img src="img/album/korean/01-hellevator.png" class="imgSecDiscoKRhellevator" alt="hellevator">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Hellevator</h2>
+        <h6 class="h6SecDiscoKR"><em>1 novembre 2017</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Hellevator - 4:00</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mixtape -->
+    <div class="row" id="divSecDiscoKRmixtape">
+      <div class="col-md-3">
+        <img src="img/album/korean/02-mixtape.png" class="imgSecDiscoKRmixtape" alt="mixtape">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Mixtape</h2>
+        <h6 class="h6SecDiscoKR"><em>8 gennaio 2018</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Hellevator - 4:00</li>
+          <li>BEWARE - 3:09</li>
+          <li>Spread My Wings - 3:20</li>
+          <li>YAYAYA - 3:21</li>
+          <li>GLOW - 3:24</li>
+          <li>School Life - 3:36</li>
+          <li>4419 - 3:13</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- I am NOT -->
+    <div class="row" id="divSecDiscoKRiamnot">
+      <div class="col-md-3">
+        <img src="img/album/korean/03-iamnot.png" class="imgSecDiscoKRiamnot" alt="iamnot">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">I am NOT</h2>
+        <h6 class="h6SecDiscoKR"><em>26 marzo 2018</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>NOT! - 1:22</li>
+          <li>District 9 - 3:31</li>
+          <li>Mirror - 3:40</li>
+          <li>Awaken - 3:13</li>
+          <li>ROCK - 3:13</li>
+          <li>Grow Up - 3:30</li>
+          <li>3rd Eye - 4:03</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- I am WHO -->
+    <div class="row" id="divSecDiscoKRiamwho">
+      <div class="col-md-3">
+        <img src="img/album/korean/04-iamwho.png" class="imgSecDiscoKRiamwho" alt="iamwho">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">I am WHO</h2>
+        <h6 class="h6SecDiscoKR"><em>6 agosto2018</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>WHO? - 1:44</li>
+          <li>My Pace - 3:09</li>
+          <li>Voices - 3:20</li>
+          <li>Question - 3:02</li>
+          <li>Insomnia - 3:26</li>
+          <li>M.I.A. - 3:30</li>
+          <li>Awkward Silence - 3:13</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- I am YOU -->
+    <div class="row" id="divSecDiscoKRiamyou">
+      <div class="col-md-3">
+        <img src="img/album/korean/05-iamyou.png" class="imgSecDiscoKRiamyou" alt="iamyou">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">I am YOU</h2>
+        <h6 class="h6SecDiscoKR"><em>22 ottobre 2018</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>YOU. - 1:18</li>
+          <li>I am YOU - 3:24</li>
+          <li>My Side - 3:36</li>
+          <li>Hero's Soup - 3:32</li>
+          <li>Get Cool - 3:14</li>
+          <li>N/S - 3:44</li>
+          <li>0325 - 3:38</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Clé 1 : MIROH -->
+    <div class="row" id="divSecDiscoKRcle1miroh">
+      <div class="col-md-3">
+        <img src="img/album/korean/06-cle1miroh.png" class="imgSecDiscoKRcle1miroh" alt="cle1miroh">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Clé 1 : MIROH</h2>
+        <h6 class="h6SecDiscoKR"><em>25 marzo 2019</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Entrance - 1:38</li>
+          <li>MIROH - 3:27</li>
+          <li>Victory Song - 3:16</li>
+          <li>Maze of Memories - 2:55</li>
+          <li>Boxer - 3:20</li>
+          <li>Chronosaurus - 3:18</li>
+          <li>19 - 3:25</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Clé 2 : Yellow Wood -->
+    <div class="row" id="divSecDiscoKRcle2yellowwood">
+      <div class="col-md-3">
+        <img src="img/album/korean/07-cle2yellowwood.png" class="imgSecDiscoKRcle2yellowwood" alt="cle2yellowwood">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Clé 2 : Yellow Wood</h2>
+        <h6 class="h6SecDiscoKR"><em>9 giugno 2019</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Road Not Taken - 1:35</li>
+          <li>Side Effects - 3:13</li>
+          <li>TMT - 3:27</li>
+          <li>Mixtape#1 - 4:12</li>
+          <li>Mixtape#2 - 4:51</li>
+          <li>Mixtape#3 - 4:17</li>
+          <li>Mixtape#4 - 3:51</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Double Knot -->
+    <div class="row" id="divSecDiscoKRdoubleknot">
+      <div class="col-md-3">
+        <img src="img/album/korean/08-doubleknot.png" class="imgSecDiscoKRdoubleknot" alt="doubleknot">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Double Knot</h2>
+        <h6 class="h6SecDiscoKR"><em>9 ottobre 2019</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Double Knot - 3:09</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Extraordinary You OST Part 7 -->
+    <div class="row" id="divSecDiscoKRextraordinaryyouostpart7">
+      <div class="col-md-3">
+        <img src="img/album/korean/09-extraordinaryyouostpart7.png" class="imgSecDiscoKRextraordinaryyouostpart7" alt="extraordinaryyouostpart7">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Extraordinary You OST Part 7</h2>
+        <h6 class="h6SecDiscoKR"><em>7 novembre 2019</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>어쩌다 발견한 하루 OST Part 7 - 4:04</li>
+          <li>어쩌다 발견한 하루 OST Part 7 (Instrumental) - 4:04</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Clé : LEVANTER -->
+    <div class="row" id="divSecDiscoKRclelevanter">
+      <div class="col-md-3">
+        <img src="img/album/korean/10-clelevanter.png" class="imgSecDiscoKRclelevanter" alt="clelevanter">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Clé : LEVANTER</h2>
+        <h6 class="h6SecDiscoKR"><em>9 dicembre 2019</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>STOP - 3:09</li>
+          <li>Double Knot - 3:11</li>
+          <li>Levanter - 3:17</li>
+          <li>Booster - 3:40</li>
+          <li>Astronaut - 3:00</li>
+          <li>Sunshine - 3:42</li>
+          <li>You Can STAY - 3:28</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mixtape : Gone Days -->
+    <div class="row" id="divSecDiscoKRmixtapegonedays">
+      <div class="col-md-3">
+        <img src="img/album/korean/11-mixtapegonedays.png" class="imgSecDiscoKRmixtapegonedays" alt="mixtapegonedays">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Mixtape : Gone Days</h2>
+        <h6 class="h6SecDiscoKR"><em>26 dicembre 2019</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Mixtape : Gone Days - 3:16</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mixtape : On Track -->
+    <div class="row" id="divSecDiscoKRmixtapeontrack">
+      <div class="col-md-3">
+        <img src="img/album/korean/12-mixtapeontrack.png" class="imgSecDiscoKRmixtapeontrack" alt="mixtapeontrack">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Mixtape : On Track</h2>
+        <h6 class="h6SecDiscoKR"><em>25 marzo 2020</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Mixtape : On Track - 3:28</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TOP -->
+    <div class="row" id="divSecDiscoKRtop">
+      <div class="col-md-3">
+        <img src="img/album/korean/13-top.png" class="imgSecDiscoKRtop" alt="top">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">TOP</h2>
+        <h6 class="h6SecDiscoKR"><em>13 maggio 2020</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>TOP ("Tower of God" OP) - 3:05</li>
+          <li>SLUMP ("Tower of God" ED) - 2:14</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- GO LIVE -->
+    <div class="row" id="divSecDiscoKRgolive">
+      <div class="col-md-3">
+        <img src="img/album/korean/14-golive.png" class="imgSecDiscoKRgolive" alt="golive">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">GO LIVE</h2>
+        <h6 class="h6SecDiscoKR"><em>17 giugno 2020</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>GO LIVE - 1:50</li>
+          <li>God's Menu - 2:47</li>
+          <li>Easy - 3:03</li>
+          <li>Pacemaker - 3:10</li>
+          <li>Airplane - 3:34</li>
+          <li>Another Day - 2:46</li>
+          <li>Phobia - 3:32</li>
+          <li>Blueprint - 4:11</li>
+          <li>TA - 3:28</li>
+          <li>Haven - 3:19</li>
+          <li>TOP ("Tower of God" OP) - 3:05</li>
+          <li>SLUMP ("Tower of God" ED) - 2:14</li>
+          <li>Mixtape : Gone Days - 3:16</li>
+          <li>Mixtape : On Track - 3:28</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- POP OUT BOY! OST Part 1 -->
+    <div class="row" id="divSecDiscoKRpopoutboypart1">
+      <div class="col-md-3">
+        <img src="img/album/korean/15-popoutboypart1.png" class="imgSecDiscoKRpopoutboypart1" alt="popoutboypart1">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">POP OUT BOY! OST Part 1</h2>
+        <h6 class="h6SecDiscoKR"><em>16 luglio 2020</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Hello Stranger - 3:59</li>
+          <li>Hello Stranger (Instrumental) - 3:59</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- IN LIFE -->
+    <div class="row" id="divSecDiscoKRinlife">
+      <div class="col-md-3">
+        <img src="img/album/korean/16-inlife.png" class="imgSecDiscoKRinlife" alt="inlife">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">IN LIFE</h2>
+        <h6 class="h6SecDiscoKR"><em>14 settembre 2020</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>The Tortoise and the Hare - 3:44</li>
+          <li>Back Door - 3:09</li>
+          <li>B Me - 3:25</li>
+          <li>Any - 2:49</li>
+          <li>Ex - 3:37</li>
+          <li>We Go (Bang Chan, Changbin, HAN) - 2:37</li>
+          <li>Wow (Lee Know, Hyunjin, Felix) - 3:13</li>
+          <li>My Universe (Seungmin, I.N feat. Changbin) - 3:23</li>
+          <li>God's Menu - 2:47</li>
+          <li>Easy - 3:03</li>
+          <li>Pacemaker - 3:10</li>
+          <li>Airplane - 3:34</li>
+          <li>Another Day - 2:46</li>
+          <li>Phobia - 3:32</li>
+          <li>Blueprint - 4:11</li>
+          <li>TA - 3:28</li>
+          <li>Haven - 3:19</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ALL IN (Korean Ver.) -->
+    <div class="row" id="divSecDiscoKRallinkoreanver">
+      <div class="col-md-3">
+        <img src="img/album/korean/17-allinkorean.png" class="imgSecDiscoKRallinkoreanver" alt="allinkoreanver">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">ALL IN (Korean Ver.)</h2>
+        <h6 class="h6SecDiscoKR"><em>26 novembre 2020</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>ALL IN (Korean Ver.) - 3:04</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Going Dumb (with Stray Kids) -->
+    <div class="row" id="divSecDiscoKRgoingdumb">
+      <div class="col-md-3">
+        <img src="img/album/korean/18-goingdumb.png" class="imgSecDiscoKRgoingdumb" alt="goingdumb">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Going Dumb (with Stray Kids) - Alesso, Stray Kids, CORSAK</h2>
+        <h6 class="h6SecDiscoKR"><em>19 maggio 2021</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Going Dumb (with Stray Kids) - 2:50</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Going Dumb (with Stray Kids) (Mike Williams Remix) -->
+    <div class="row" id="divSecDiscoKRgoingdumbmikewilliamsremix">
+      <div class="col-md-3">
+        <img src="img/album/korean/19-goingdumbmikewilliamsremix.png" class="imgSecDiscoKRgoingdumbmikewilliamsremix" alt="goingdumbmikewilliamsremix">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Going Dumb (with Stray Kids) (Mike Williams Remix) - Alesso, Stray Kids, CORSAK, Mike Williams</h2>
+        <h6 class="h6SecDiscoKR"><em>28 maggio 2021</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Going Dumb (with Stray Kids) (Mike Williams Remix) - 2:47</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mixtape : OH -->
+    <div class="row" id="divSecDiscoKRmixtapeoh">
+      <div class="col-md-3">
+        <img src="img/album/korean/20-mixtapeoh.png" class="imgSecDiscoKRmixtapeoh" alt="mixtapeoh">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Mixtape : OH</h2>
+        <h6 class="h6SecDiscoKR"><em>26 giugno 2021</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Mixtape : OH - 3:33</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- NOEASY -->
+    <div class="row" id="divSecDiscoKRnoeasy">
+      <div class="col-md-3">
+        <img src="img/album/korean/21-noeasy.png" class="imgSecDiscoKRnoeasy" alt="noeasy">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">NOEASY</h2>
+        <h6 class="h6SecDiscoKR"><em>23 agosto 2021</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>CHEESE - 3:02</li>
+          <li>Thunderous - 3:03</li>
+          <li>DOMINO - 3:18</li>
+          <li>SSICK - 3:10</li>
+          <li>The View - 3:21</li>
+          <li>Sorry, I Love You - 2:57</li>
+          <li>Silent Cry - 3:29</li>
+          <li>Secret Secret - 3:29</li>
+          <li>Star Lost - 3:35</li>
+          <li>Red Lights (Bang Chan, Hyunjin) - 3:09</li>
+          <li>Surfin' (Lee Know, Changbin, Felix) - 3:11</li>
+          <li>Gone Away (HAN, Seungmin, I.N) - 4:01</li>
+          <li>WOLFGANG - 3:10</li>
+          <li>Mixtape : OH - 3:33</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Christmas EveL -->
+    <div class="row" id="divSecDiscoKRchristmasevel">
+      <div class="col-md-3">
+        <img src="img/album/korean/22-christmasevel.png" class="imgSecDiscoKRchristmasevel" alt="christmasevel">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Christmas EveL</h2>
+        <h6 class="h6SecDiscoKR"><em>29 novembre 2021</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Christmas EveL - 2:58</li>
+          <li>24 to 25 - 3:34</li>
+          <li>Winter Falls - 3:55</li>
+          <li>DOMINO (English Ver.) - 3:18</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SKZ2021 -->
+    <div class="row" id="divSecDiscoKRskz2021">
+      <div class="col-md-3">
+        <img src="img/album/korean/23-skz2021.png" class="imgSecDiscoKRskz2021" alt="skz2021">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">SKZ2021</h2>
+        <h6 class="h6SecDiscoKR"><em>23 dicembre 2021</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Scars (Korean Ver.) - 3:19</li>
+          <li>Awaken - 3:13</li>
+          <li>ROCK - 3:13</li>
+          <li>3rd Eye - 4:03</li>
+          <li>Placebo - 3:54</li>
+          <li>Insomnia - 3:26</li>
+          <li>Behind The Light - 4:30</li>
+          <li>My Side - 3:36</li>
+          <li>N/S - 3:44</li>
+          <li>0325 - 3:38</li>
+          <li>For You - 4:09</li>
+          <li>Maze of Memories - 2:55</li>
+          <li>Broken Compass - 3:41</li>
+          <li>Hoodie Season - 3:54</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ODDINARY -->
+    <div class="row" id="divSecDiscoKRoddinary">
+      <div class="col-md-3">
+        <img src="img/album/korean/24-oddinary.png" class="imgSecDiscoKRoddinary" alt="oddinary">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">ODDINARY</h2>
+        <h6 class="h6SecDiscoKR"><em>25 marzo 2022</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>VENOM - 3:14</li>
+          <li>MANIAC - 3:02</li>
+          <li>Charmer - 3:08</li>
+          <li>FREEZE - 2:58</li>
+          <li>Lonely St. - 2:44</li>
+          <li>Waiting For Us (Bang Chan, Lee Know, Seungmin, I.N) - 3:39</li>
+          <li>Muddy Water (Changbin, Hyunjin, HAN, Felix) - 3:17</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mixtape : Time Out -->
+    <div class="row" id="divSecDiscoKRmixtapetimeout">
+      <div class="col-md-3">
+        <img src="img/album/korean/25-mixtapetimeout.png" class="imgSecDiscoKRmixtapetimeout" alt="mixtapetimeout">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Mixtape : Time Out</h2>
+        <h6 class="h6SecDiscoKR"><em>1 agosto 2022</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Mixtape : Time Out - 2:55</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- MAXIDENT -->
+    <div class="row" id="divSecDiscoKRmaxident">
+      <div class="col-md-3">
+        <img src="img/album/korean/26-maxident.png" class="imgSecDiscoKRmaxident" alt="maxident">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">MAXIDENT</h2>
+        <h6 class="h6SecDiscoKR"><em>7 ottobre 2022</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>CASE 143 - 3:11</li>
+          <li>CHILL - 3:15</li>
+          <li>Give Me Your TMI - 3:18</li>
+          <li>SUPER BOARD - 3:05</li>
+          <li>3RACHA (Bang Chan, Changbin, HAN) - 3:28</li>
+          <li>TASTE (Lee Know, Hyunjin, Felix) - 3:36</li>
+          <li>Can't Stop Seungmin & I.N - 3:29</li>
+          <li>CIRCUS (Korean Ver.) - 3:14</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SKZ-REPLAY -->
+    <div class="row" id="divSecDiscoKRskzreplay">
+      <div class="col-md-3">
+        <img src="img/album/korean/27-skzreplay.png" class="imgSecDiscoKRskzreplay" alt="skzreplay">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">SKZ-REPLAY</h2>
+        <h6 class="h6SecDiscoKR"><em>21 dicembre 2022</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>FAM (Korean Ver.) - 3:33</li>
+          <li>Connected (Bang Chan) - 2:51</li>
+          <li>Limbo (Lee Know) - 3:17</li>
+          <li>DOODLE (Changbin) - 3:04</li>
+          <li>Love Untold (Hyunjin) - 3:30</li>
+          <li>RUN (HAN) - 2:58</li>
+          <li>Deep end (Felix) - 3:28</li>
+          <li>Stars and Raindrops (Seungmin) - 3:49</li>
+          <li>Hug Me (I.N) - 3:00</li>
+          <li>#LoveSTAY - 3:17</li>
+          <li>ZONE (Bang Chan, Changbin, HAN) - 3:32</li>
+          <li>Close (HAN) - 3:46</li>
+          <li>Streetlight (Changbin feat. Bang Chan) - 3:09</li>
+          <li>i hate to admit (Bang Chan) - 2:50</li>
+          <li>I GOT IT (HAN) - 2:50</li>
+          <li>miss you (Hyunjin) - 3:08</li>
+          <li>Maknae On Top (I.N feat. Bang Chan, Changbin) - 2:33</li>
+          <li>Alien (HAN) - 3:19</li>
+          <li>Because (Changbin, Felix) - 3:18</li>
+          <li>Piece of a Puzzle (Changbin, Seungmin) - 2:53</li>
+          <li>Wish You Back (HAN) - 3:18</li>
+          <li>HaPpY (HAN) - 3:29</li>
+          <li>Up All Night (Bang Chan, Changbin, Felix, Seungmin) - 3:21</li>
+          <li>Drive (Bang Chan, Lee Know) - 2:44</li>
+          <li>ice.cream (Hyunjin) - 2:50</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 5-STAR -->
+    <div class="row" id="divSecDiscoKR5star">
+      <div class="col-md-3">
+        <img src="img/album/korean/28-5star.png" class="imgSecDiscoKR5star" alt="5star">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">5-STAR</h2>
+        <h6 class="h6SecDiscoKR"><em>2 giugno 2023</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Hall of Fame - 2:51</li>
+          <li>S-Class - 3:15</li>
+          <li>ITEM - 3:11</li>
+          <li>Super Bowl - 3:03</li>
+          <li>TOPLINE (feat. Tiger JK) - 3:23</li>
+          <li>DLC - 3:06</li>
+          <li>GET LIT - 2:51</li>
+          <li>Collision - 2:37</li>
+          <li>FNF - 2:51</li>
+          <li>Youtiful - 3:29</li>
+          <li>THE SOUND (Korean Ver.) - 2:58</li>
+          <li>Mixtape : Time Out - 2:55</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ROCK-STAR -->
+    <div class="row" id="divSecDiscoKRrockstar">
+      <div class="col-md-3">
+        <img src="img/album/korean/29-rockstar.png" class="imgSecDiscoKRrockstar" alt="rockstar">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">ROCK-STAR</h2>
+        <h6 class="h6SecDiscoKR"><em>10 novembre 2023</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>MEGAVERSE - 3:05</li>
+          <li>LALALALA - 3:02</li>
+          <li>BLIND SPOT - 3:20</li>
+          <li>COMFLEX - 2:52</li>
+          <li>Cover Me - 3:11</li>
+          <li>Leave - 3:39</li>
+          <li>Social Path (feat. LiSA) (Korean Ver.) - 3:17</li>
+          <li>LALALALA (Rock Ver.) - 3:07</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ATE -->
+    <div class="row" id="divSecDiscoKRate">
+      <div class="col-md-3">
+        <img src="img/album/korean/30-ate.png" class="imgSecDiscoKRate" alt="ate">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">ATE</h2>
+        <h6 class="h6SecDiscoKR"><em>19 luglio 2024</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>MOUNTAINS - 3:07</li>
+          <li>Chk Chk Boom - 2:28</li>
+          <li>JJAM - 3:05</li>
+          <li>I Like It - 2:28</li>
+          <li>Runners - 3:16</li>
+          <li>twilight - 3:12</li>
+          <li>Stray Kids - 3:09</li>
+          <li>Chk Chk Boom (Festival Ver.) - 2:33</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Chk Chk Boom (Remixes) -->
+    <div class="row" id="divSecDiscoKRchkchkboomremixes">
+      <div class="col-md-3">
+        <img src="img/album/korean/31-chkchkboomremixes.png" class="imgSecDiscoKRchkchkboomremixes" alt="chkchkboomremixes">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Chk Chk Boom (Remixes)</h2>
+        <h6 class="h6SecDiscoKR"><em>22 luglio 2024</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Chk Chk Boom - 2:28</li>
+          <li>Chk Chk Boom (Deadeye Ver.) - 2:14</li>
+          <li>Chk Chk Boom (Heatwave Ver.) - 2:20</li>
+          <li>Chk Chk Boom (Instrumental) - 2:28</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SLASH -->
+    <div class="row" id="divSecDiscoKRslash">
+      <div class="col-md-3">
+        <img src="img/album/korean/32-slash.png" class="imgSecDiscoKRslash" alt="slash">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">SLASH</h2>
+        <h6 class="h6SecDiscoKR"><em>23 luglio 2024</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>SLASH - 3:11</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Come Play -->
+    <div class="row" id="divSecDiscoKRcomeplay">
+      <div class="col-md-3">
+        <img src="img/album/korean/33-comeplay.png" class="imgSecDiscoKRcomeplay" alt="comeplay">
+      </div>
+
+      <div class="col-md-9">
+        <h2 class="h2SecDiscoKR">Come Play - Stray Kids, Young Miko, Tom Morello</h2>
+        <h6 class="h6SecDiscoKR"><em>16 ottobre 2024</em></h6>
+
+        <ul class="ulSecDiscoKR">
+          <li>Come Play - 2:14</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" id="containerFooter">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <p class="col-md-4 mb-0 text-body-secondary" id="pFooterCopy">&copy; 2024 Company, Inc</p>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#aLiFooterFonti" class="nav-link px-2 text-body-secondary" id="aLiFooterFonti">Fonti: </a></li>
+          <li class="nav-item"><a href="https://it.wikipedia.org/wiki/Stray_Kids" class="nav-link px-2 text-body-secondary aLiFooterLink" target="_blank" id="aLiFooterLink1">Wikipedia</a></li>
+          <li class="nav-item"><a href="https://stray-kids.fandom.com/wiki/Stray_Kids" class="nav-link px-2 text-body-secondary aLiFooterLink" target="_blank" id="aLiFooterLink2">Wiki Fandom</a></li>
+        </ul>
+      </footer>
+    </div>
+  </footer>
+</body>
+</html>
